@@ -26,6 +26,8 @@
 * Run composer install on target directory
 * Run php artisan key:generate
 * Now you can login as superadmin: launch the main URL and login with default credentials superadmin@gmail.com - 123456
+* Admin credentials admin@gmail.com - 123456
+* Member credentials member@gmail.com - 123456
 * That's it - modify/expand code as you want!
 
 ## License
