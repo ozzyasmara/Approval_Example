@@ -18,6 +18,20 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+## How to Use
+
+* Clone the repository with git clone
+* Copy .env.example file to .env and edit database credentials there
+* Import MySQL file (git-approval.sql) 
+* Run composer install on target directory
+* Run php artisan key:generate
+* Now you can login as superadmin: launch the main URL and login with default credentials superadmin@gmail.com - 123456
+* That's it - modify/expand code as you want!
+
+## License
+
+Basically, feel free to use and re-use any way you want.
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
